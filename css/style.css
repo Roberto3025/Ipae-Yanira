@@ -1,0 +1,160 @@
+body {
+    font-family: "Heebo", sans-serif;
+    background-color: lightslategrey;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+  }
+
+.header {
+    background-color: white;
+}
+  
+ .section-principal {
+    height: 20vh;
+    display: flex;  /*alinia los elemento en filas*/
+    align-items: center;
+    justify-content: center;
+ }
+
+ .section-principal div{
+    /*border: solid red;*/
+    width: 50%;
+ }
+
+ .section-principal-ini{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ }
+
+ .section-principal-ini div{
+    width: 10%;
+    font-size: 5em;
+    font-weight: 800;
+    margin-right: 10px;
+ }
+
+ .section-principal-fin{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+ }
+
+ .section-principal-fin div{
+    width: 30%;
+ }
+
+ .nav-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+ }
+
+ .nav-principal div {
+    width: 25%;
+    border: solid lightslategrey 2px;
+ }
+
+ .nav-principal div p {
+    text-align: center;
+ }
+
+ .nav-principal div a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+ }
+
+ .body-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 50vh;
+ }
+
+ .body-principal div{
+    width: 50%;
+ }
+
+ .body-principal div p{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 650;
+    color: lightslategrey;
+ }
+
+ .body-principal div p img{
+    text-align: center;
+    border: solid 5px blue;
+    border-radius: 20px;
+ }
+
+ .Footer-principal {
+    height: 15vh;
+    background-color: blue;
+ }
+
+ .Footer-principal div {
+    height: 10vh;
+    background-color: blue;
+ }
+
+ .Footer-principal div p{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+ }
+
+ .body-principal-bienvenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 50vh;
+ }
+
+ .body-principal-bienvenido-1 {
+    display: flex;
+    align-items: first baseline;
+    justify-content: start;
+    background-color: white;
+    height: 10vh;
+ }
+
+ .body-principal-bienvenido-1 div{
+    width: 100%;
+ }
+
+ .body-principal-bienvenido-1 div p{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 650;
+    color: lightslategrey;
+ }
+
+ .body-principal-bienvenido-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+ }
+
+ .body-principal-bienvenido-2 div{
+    width: 50%;
+ }
+
+ .body-principal-bienvenido-2 div p{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 650;
+    color: lightslategrey;
+ }
+
+ .body-principal-bienvenido-2 div p img{
+    text-align: center;
+    border: solid 5px blue;
+    border-radius: 20px;
+ }

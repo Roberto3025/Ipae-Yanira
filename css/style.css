@@ -109,9 +109,6 @@ body {
  }
 
  .body-principal-bienvenido {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: white;
     height: 50vh;
  }
@@ -130,16 +127,16 @@ body {
 
  .body-principal-bienvenido-1 div p{
     text-align: center;
-    font-size: 3em;
+    font-size: 30px;
     font-weight: 650;
-    color: lightslategrey;
+    color: blue;
  }
 
  .body-principal-bienvenido-2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 35vh;
+    height: 40vh;
  }
 
  .body-principal-bienvenido-2 div{
@@ -147,14 +144,94 @@ body {
  }
 
  .body-principal-bienvenido-2 div p{
-    text-align: center;
-    font-size: 3em;
+    text-align: justify;
+    font-size: 135%;
     font-weight: 650;
-    color: lightslategrey;
+    color: darkslategrey;
+    margin-right: 10%;
  }
 
  .body-principal-bienvenido-2 div p img{
     text-align: center;
     border: solid 5px blue;
-    border-radius: 20px;
+    border-radius: 15px;
+    margin-left: 10%;
+ }
+
+ .body-principal-bienvenido-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+ }
+
+ .body-principal-bienvenido-3 div{
+    width: 50%;
+ }
+
+ .body-principal-bienvenido-3 div p{
+    text-align: justify;
+    font-size: 150%;
+    font-weight: 650;
+    color: darkslategrey;
+    margin-left: 10%;
+ }
+
+ .body-principal-bienvenido-3 div p img{
+    border: solid 5px blue;
+    border-radius: 15px;
+ }
+
+ .body-principal-bienvenido-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+ }
+
+ .body-principal-bienvenido-4 div{
+    width: 50%;
+ }
+
+ .body-principal-bienvenido-4 div p{
+    text-align: justify;
+    font-size: 150%;
+    font-weight: 650;
+    color: darkslategrey;
+    margin-right: 10%;
+ }
+
+ .body-principal-bienvenido-4 div p img{
+    text-align: center;
+    border: solid 5px blue;
+    border-radius: 15px;
+    margin-left: 10%;
+ }
+
+ .body-principal-bienvenido-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 40vh;
+    background-color: blue;
+ }
+
+ .body-principal-bienvenido-5 div{
+    width: 100%;
+ }
+
+ .body-principal-bienvenido-5 div p{
+    text-align: center;
+    font-size: 120%;
+    font-weight: 650;
+    color: white;
+    height: 40vh;
+    margin: 5%;
+
+ }
+
+ .body-principal-bienvenido-5 div p a{
+    text-decoration: none;
+    color: burlywood;
  }

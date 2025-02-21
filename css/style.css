@@ -144,7 +144,7 @@ body {
  }
 
  .body-principal-bienvenido-2 div p{
-    text-align: justify;
+    text-align: center;
     font-size: 135%;
     font-weight: 650;
     color: darkslategrey;
@@ -170,7 +170,7 @@ body {
  }
 
  .body-principal-bienvenido-3 div p{
-    text-align: justify;
+    text-align: center;
     font-size: 150%;
     font-weight: 650;
     color: darkslategrey;
@@ -194,7 +194,7 @@ body {
  }
 
  .body-principal-bienvenido-4 div p{
-    text-align: justify;
+    text-align: center;
     font-size: 150%;
     font-weight: 650;
     color: darkslategrey;
@@ -235,36 +235,3 @@ body {
     text-decoration: none;
     color: burlywood;
  }
-
- @media only screen and (min-width: 480px) {
-    .body-principal-bienvenido-4 div p img{
-      width: 200px;
-    }
-
-    .body-principal-bienvenido-4 div{
-        width: 100%;
-     }
-
-  }
-  
-  /* tablets phones */
-  @media only screen and (min-width: 600px) {
-    .body-principal-bienvenido-4 div p img{
-        width: 350px;
-      }
-  }
-  
-  /* laptop 13, ipads tablets > 12 */
-  @media only screen and (min-width: 992px) {
-    .body-principal-bienvenido-4 div p img {
-        width: 350px;
-      }
-  }
-  
-  /* Esta condicion dice que cuando el ancho minimo de mi 
-  pantalla sea 1200 el color de fondo sera rojo*/
-  @media only screen and (min-width: 1200px) {
-    .body-principal-bienvenido-4 div p img {
-        width: 400px;
-      }
-  }
